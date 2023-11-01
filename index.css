@@ -45,9 +45,18 @@ header {
 .contacts {
   display: flex;
   width: 60%;
-  justify-content: space-between;
+  display: flex;
+  justify-content: flex-end;
 }
 
+.contactBox {
+  padding: 10px;
+  display: flex;
+}
+
+.contactBox img {
+  padding-right: 5px;
+}
 .navBottom {
   padding-left: 30px;
   padding-right: 30px;
