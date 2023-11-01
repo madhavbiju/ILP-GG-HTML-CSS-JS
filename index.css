@@ -215,6 +215,22 @@ li:hover a {
   align-items: center;
 }
 
+.inputBottomRow a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-align: center;
+  text-decoration: none;
+  color: initial;
+  background-color: #17c1a3;
+  border: none;
+  color: white;
+  padding-top: 16px;
+  height: 35px;
+  width: 290px;
+  border-radius: 7px;
+}
+
 input {
   width: 290px;
   height: 50px;
@@ -235,11 +251,18 @@ select {
   padding: 12px 20px 12px 10px;
 }
 
-button {
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-align: center;
+  text-decoration: none;
+  color: initial;
   background-color: #17c1a3;
   border: none;
   color: white;
-  height: 50px;
+  padding-top: 20px;
+  height: 40px;
   width: 290px;
   border-radius: 7px;
 }
