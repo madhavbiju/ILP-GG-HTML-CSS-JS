@@ -228,7 +228,7 @@ button {
   border-radius: 7px;
 }
 
-.specTable{
+.specTable {
   padding-left: 30px;
   padding-right: 30px;
   width: 80%;
@@ -236,55 +236,64 @@ button {
   justify-content: space-around;
 }
 
-.specItem{
+.specItem {
   text-align: center;
 }
 
-.specItem img{
+.specItem img {
   width: 200px;
 }
 
 /* Doctors Page */
 
-.docBg{
-  background-color: #DFF2FA;
+.docBg {
+  background-color: #dff2fa;
   position: relative;
+  height: 70%;
 }
 
-.doctorsMain{
-
+.doctorsMain {
   display: flex;
-
+  height: 100%;
 }
 
-.doctorBg{
+.doctorBg {
   position: absolute;
   height: 100%;
-  border: 2px solid red;
   width: 100%;
-  
 }
 
-.docContent{
+.doctorBg img {
+  height: 100%;
 
+  width: 100%;
+}
+
+.docContent {
   margin-top: 10%;
+  margin-right: 5%;
   height: 60%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-.docByline{
+.docByline {
   display: flex;
   align-items: center;
 }
 
-#doc{
+.docByline img {
+  padding-right: 10px;
+}
+
+#doc {
   z-index: 2;
+  height: 100%;
 }
 
 footer {
-  background-color: #F9FAFA;
+  background-color: #f9fafa;
   height: 500px;
   color: black;
 }
@@ -332,17 +341,17 @@ footer {
   background-color: #f5f5f5;
 }
 
-.footerContacts{
+.footerContacts {
   display: flex;
-  width:30%;
+  width: 30%;
   justify-content: space-between;
 }
 
-.contactIcons{
+.contactIcons {
   display: flex;
 }
 
-.contactIcons img{
+.contactIcons img {
   width: 20px;
   height: 20px;
 }
@@ -353,6 +362,6 @@ footer {
   justify-content: space-between;
 }
 
-.socialIcons img{
+.socialIcons img {
   width: 40px;
 }
