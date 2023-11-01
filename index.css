@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+}
+
+body {
+  height: 100%;
+}
+
+/* Navigation Bar Begins*/
+
+header {
+  background: white;
+  height: 150px;
+
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.navContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.navTop {
+  padding-left: 30px;
+  padding-right: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 52px;
+  background-color: #f5f5f5;
+}
+
+.socials {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+}
+
+.contacts {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.navBottom {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navLogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: monospace;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+.navLinks ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 100%;
+}
+
+li:hover a {
+  background-color: #17c1a3;
+  cursor: pointer;
+  color: black;
+}
+
+#selected a {
+  color: red;
+}
+
+/* Navigation Bar Ends*/
+
+.section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.sectionMain {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mainBanner {
+  width: 95%;
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  padding-left: 100px;
+  height: 80%;
+}
+
+.text h1 {
+  font-size: 50px;
+  color: #211e1e;
+}
+
+.textButtons {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.doctorButton {
+  width: 28%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mainBanner img {
+  width: 100%;
+}
+
+.bannerInputsContainer {
+  margin-bottom: 20px;
+  position: absolute;
+  width: 70%;
+  bottom: 0;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+
+  height: 30%;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+.bannerInputs {
+  height: 80%;
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.inputTable {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputTopRow {
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inputBottomRow {
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input {
+  width: 290px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px solid #000000;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 12px 20px 12px 10px;
+}
+
+select {
+  width: 290px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px solid #000000;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 12px 20px 12px 10px;
+}
+
+button {
+  background-color: #17c1a3;
+  border: none;
+  color: white;
+  height: 50px;
+  width: 290px;
+  border-radius: 7px;
+}
+
+.specTable{
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.specItem{
+  text-align: center;
+}
+
+.specItem img{
+  width: 200px;
+}
+
+/* Doctors Page */
+
+.docBg{
+  background-color: #DFF2FA;
+  position: relative;
+}
+
+.doctorsMain{
+
+  display: flex;
+
+}
+
+.doctorBg{
+  position: absolute;
+  height: 100%;
+  border: 2px solid red;
+  width: 100%;
+  
+}
+
+.docContent{
+
+  margin-top: 10%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.docByline{
+  display: flex;
+  align-items: center;
+}
+
+#doc{
+  z-index: 2;
+}
+
+footer {
+  background-color: #F9FAFA;
+  height: 500px;
+  color: black;
+}
+
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.footerTop {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  align-items: flex-end;
+}
+
+.footerLinks {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footerLinks a {
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+}
+
+.footerLogo {
+  width: 30%;
+}
+
+.footerBottom {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px;
+  background-color: #f5f5f5;
+}
+
+.footerContacts{
+  display: flex;
+  width:30%;
+  justify-content: space-between;
+}
+
+.contactIcons{
+  display: flex;
+}
+
+.contactIcons img{
+  width: 20px;
+  height: 20px;
+}
+
+.socialIcons {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+
+.socialIcons img{
+  width: 40px;
+}
