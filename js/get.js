@@ -7,7 +7,7 @@ async function asyncFunc() {
     console.log(usersArray);
 
     usersArray.forEach((user, index) => {
-      var container = document.querySelector(`.sectionPosts`);
+      var container = document.querySelector(`.career-card`);
       const requirement = user.company.department;
       const designation = user.company.title;
       const qualification = user.university;
